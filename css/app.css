@@ -6,14 +6,13 @@
 
 }
 
-.header{
+header{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     padding: 0px;
     
     position: static;
-    width: 100%;
     height: 73px;
     max-height: 73px;
     left: 0px;
@@ -36,9 +35,13 @@
 }
 
 .contenerdor_icono{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
     max-width: 20%;
     background-color: #53389E;
-    margin-bottom: 25px;
+    
+    
 }
 
 .head_icono{
@@ -56,8 +59,8 @@
     box-sizing: border-box;
     border-radius: 8px;
     margin-left: 112px;
-    margin-top: 25px;
-    margin-bottom: 21px;
+    margin-top: 20px;
+    
 
 }
 
@@ -114,7 +117,9 @@ border-radius: 100%;
 
 
 nav{
-    margin-left: 240px;
+    margin-left: 250px;
+
+   
 }
 
 .nav_main > ul{
@@ -122,7 +127,7 @@ nav{
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    margin-left: 29.73px;
+    
 
     text-decoration: none;
     font-family: 'Inter';
@@ -147,8 +152,9 @@ nav{
 .nav_main > ul li{
     
     list-style-type: none;
-    /*margin-left: 28px;*/
+    margin-left: 3%;
     text-decoration: none;
+    
 }
 
 .nav_main > ul li a{
@@ -175,6 +181,7 @@ nav{
     order: 0;
     flex-grow: 0;
     margin: 0px 4px;
+    margin-right: 20px;
     
     
     }
@@ -187,14 +194,7 @@ nav{
     align-items: center;
     padding: 8px 12px;
     
-    position: static;
-    width: 108px;
-    height: 40px;
-    left: 74px;
-    top: 0px;
-    
-    
-    
+
     background: #F9F5FF;
     border-radius: 6px;
     
@@ -203,8 +203,18 @@ nav{
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 0px 4px;
+ 
 
+}
+
+.contenerdor_Info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin-left: 100px;
+    margin-top: 16px;
 }
 
 .head_upgrade{
@@ -238,7 +248,7 @@ nav{
     flex-grow: 0;
     margin: 0px px;
   
-    margin-left: 200px;
+    
     margin-top: 5px;
     margin-bottom: 25px;
     max-width: 150px;
@@ -273,19 +283,22 @@ nav{
     line-height: 20px;
 }
 
+
+
 .settinsBox{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 10px;
+    padding-bottom: 45px;
     
     position: static;
     width: 40px;
     height: 40px;
     left: 0px;
     top: 0px;
-    
 
+    margin-bottom: 50%;
     
     background: #FFFFFF;
     border-radius: 6px;
@@ -304,6 +317,7 @@ nav{
     flex-direction: row;
     align-items: flex-start;
     padding: 10px;
+    padding-bottom: 45px;
 
     position: static;
     width: 40px;
@@ -317,25 +331,29 @@ nav{
 
 
     flex: none;
-    order: 1;
+    
     flex-grow: 0;
     margin: 0px 4px;
+    
 
 }
 
 .avatarBox{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: left;
     align-items: center ;
     padding: 0px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    
 }
 
 .avatar{
 
     display: flex;
     flex-direction: row;
-    justify-content: right;
+    justify-content: left;
     align-items: center;
     padding: 0px;
 
@@ -344,10 +362,6 @@ nav{
     height: 40px;
     left: 0px;
     top: 0px;
-
-  
-
-
 
 }
 
