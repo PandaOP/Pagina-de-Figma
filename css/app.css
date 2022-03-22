@@ -2,6 +2,8 @@
 *{font-family: 'Inter', sans-serif;
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+
 }
 
 .header{
@@ -11,8 +13,9 @@
     padding: 0px;
     
     position: static;
-    width: 1440px;
+    width: 100%;
     height: 73px;
+    max-height: 73px;
     left: 0px;
     top: 0px;
     
@@ -30,6 +33,12 @@
 
     border-color: black;
     border-width: 50px;
+}
+
+.contenerdor_icono{
+    max-width: 20%;
+    background-color: #53389E;
+    margin-bottom: 25px;
 }
 
 .head_icono{
@@ -229,14 +238,41 @@ nav{
     flex-grow: 0;
     margin: 0px px;
   
-    margin-left: 1022px;
-    margin-top: 16px;
-    margin-bottom: 20;
+    margin-left: 229px;
+    margin-top: 5px;
+    margin-bottom: 25px;
     max-width: 150px;
     font-size: 14px;
     
     
 }
+
+.up_rasho{
+    position: relative;
+    left: 12.5%;
+    right: 12.5%;
+    top: 8.33%;
+    bottom: 8.33%;
+    margin-right: 15px;
+    
+}
+
+ .up_letras{
+    position: static;
+    width: 90px;
+    height: 20px;
+    left: 44px;
+    top: 10px;
+    margin-left: 10px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+    
+    font-size: 14px;
+    line-height: 20px;
+}
+
 
 
 .fondo {
@@ -245,7 +281,7 @@ nav{
     flex-direction: column;
     align-items: center;
     padding: 0px;
-    width: 1440px;
+    width: 100%;
     height: 73px;
     left: 0px;
     top: 0px;
