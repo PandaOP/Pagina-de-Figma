@@ -11,19 +11,19 @@ header{
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    
+
     position: static;
     height: 73px;
     max-height: 73px;
     left: 0px;
     top: 0px;
-    
-    
-    
+
+
+
     background: #FFFFFF;
-    
-  
-    
+
+
+
     flex: none;
     order: 0;
     align-self: stretch;
@@ -35,13 +35,11 @@ header{
 }
 
 .contenerdor_icono{
-    flex-direction: row;
     display: flex;
+    flex-direction: row;
     align-items: center;
-    max-width: 20%;
-    background-color: #53389E;
-    
-    
+
+
 }
 
 .head_icono{
@@ -60,23 +58,11 @@ header{
     border-radius: 8px;
     margin-left: 112px;
     margin-top: 20px;
-    
+
 
 }
 
-.difuminado{
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 50%;
-    bottom: 0%;
-    
-    background-color: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(1.5rem);
- 
-    border-radius: 0px 0px 8px 8px;
-    
-}
+
 
 .icono_circulo{
     position: absolute;
@@ -94,40 +80,24 @@ border-radius: 100%;
 }
 
 .title{
-    
+
    flex-direction: row;
     display: flex;
     align-items: center;
-    margin-left: 35px;
-    margin-right: 0px;
-    margin-bottom: 29.76px;
-   
-    font-size: 17px;
-
-    position: absolute;
-    left: 0%;
-    right: 1.73%;
-    top: 24.6%;
-    bottom: 27.37%;
-
-
+ padding-left: 150px;
 
 }
 
 
 
-nav{
-    margin-left: 250px;
 
-   
-}
 
 .nav_main > ul{
     padding: 0;
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    
+
 
     text-decoration: none;
     font-family: 'Inter';
@@ -145,20 +115,20 @@ nav{
     margin-top: 16px;
     margin-bottom: 17px;
     margin-right: 0px;
-    
+
 }
-    
+
 
 .nav_main > ul li{
-    
+
     list-style-type: none;
     margin-left: 3%;
     text-decoration: none;
-    
+
 }
 
 .nav_main > ul li a{
-    
+
     text-decoration: none;
     display: flex;
     flex-direction: row;
@@ -166,24 +136,18 @@ nav{
     padding: 8px 12px;
     color: black;
 
-    position: static;
-    width: 70px;
-    height: 40px;
-    left: 0px;
-    top: 0px;
-    
-    
+
     background: #FFFFFF;
     border-radius: 6px;
-    
-    
+
+
     flex: none;
     order: 0;
     flex-grow: 0;
     margin: 0px 4px;
     margin-right: 20px;
-    
-    
+
+
     }
 
 .nav_main > ul li a:hover{
@@ -192,18 +156,18 @@ nav{
     color: #6941C6;
     flex-direction: row;
     align-items: center;
-    padding: 8px 12px;
-    
+    /* padding: 8px 12px; */
+
 
     background: #F9F5FF;
     border-radius: 6px;
-    
-    
-    
+
+
+
     flex: none;
     order: 1;
     flex-grow: 0;
- 
+
 
 }
 
@@ -247,14 +211,14 @@ nav{
     order: 0;
     flex-grow: 0;
     margin: 0px px;
-  
-    
+
+
     margin-top: 5px;
     margin-bottom: 25px;
     max-width: 150px;
     font-size: 14px;
-    
-    
+
+
 }
 
 .up_rasho{
@@ -264,7 +228,7 @@ nav{
     top: 8.33%;
     bottom: 8.33%;
     margin-right: 15px;
-    
+
 }
 
  .up_letras{
@@ -278,7 +242,7 @@ nav{
     order: 1;
     flex-grow: 0;
     margin: 0px 8px;
-    
+
     font-size: 14px;
     line-height: 20px;
 }
@@ -291,7 +255,7 @@ nav{
     align-items: flex-start;
     padding: 10px;
     padding-bottom: 45px;
-    
+
     position: static;
     width: 40px;
     height: 40px;
@@ -299,12 +263,12 @@ nav{
     top: 0px;
 
     margin-bottom: 50%;
-    
+
     background: #FFFFFF;
     border-radius: 6px;
-    
+
     /* Inside auto layout */
-    
+
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -331,10 +295,10 @@ nav{
 
 
     flex: none;
-    
+
     flex-grow: 0;
     margin: 0px 4px;
-    
+
 
 }
 
@@ -346,7 +310,7 @@ nav{
     padding: 0px;
     padding-left: 10px;
     padding-bottom: 20px;
-    
+
 }
 
 .avatar{
@@ -368,8 +332,8 @@ nav{
 
 
 
-.fondo {
-    
+/* .fondo {
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -386,4 +350,168 @@ nav{
     align-self: stretch;
     flex-grow: 0;
     margin: 0px 0px;
+} */
+
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    width: 100%;
+
+    left: 0px;
+    top: 0px;
+
+    background-color: #FCFCFD;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.Section_welcom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+
+
+}
+
+.welcon_letras{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 112px;
+    width: 967px;
+    
+}
+
+.welcom{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 38px;
+
+    color: #101828;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 4px 0px;
+
+    padding-top: 40px;
+}
+
+.detail{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #667085;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 4px 0px;
+}
+
+.deposit{
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+
+    margin-right: 13px;
+
+    background: #FFFFFF;
+
+
+    border: 1px solid #D0D5DD;
+    box-sizing: border-box;
+
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    
+
+}
+
+.icon_dolar{
+
+    left: 25%;
+    right: 25%;
+    top: 4.17%;
+    bottom: 4.17%;
+
+}
+
+.letras_deposit{
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #344054;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+}
+
+.funds{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+    margin-right: 112px;
+
+    background: #7F56D9;
+
+    border: 1px solid #7F56D9;
+    box-sizing: border-box;
+
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+
+}
+
+.funds_letras{
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 8px;
 }
