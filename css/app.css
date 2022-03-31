@@ -385,7 +385,7 @@ main{
     flex-direction: column;
     align-items: center;
     padding-left: 112px;
-    width: 967px;
+    width: 1110px;
     
 }
 
@@ -501,14 +501,16 @@ main{
 
 .funds_letras{
 
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
 
+
     color: #FFFFFF;
+
+
 
     flex: none;
     order: 0;
