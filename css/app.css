@@ -710,7 +710,7 @@ margin: 0px 0px;
 
 .graf_morado{
 
-    
+
     background: #FFFFFF;
 
 
@@ -732,7 +732,7 @@ margin: 0px 0px;
 
     display: block;
     align-items: center;
-    
+
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -777,12 +777,12 @@ margin: 0px 0px;
 }
 
 .puntitos{
-    position: absolute;        
+    position: absolute;
     left: 45.83%;
     right: 45.83%;
     top: 16.67%;
     bottom: 16.67%;
-    
+
     padding-left: 300px;
 }
 
@@ -869,7 +869,7 @@ margin: 0px 0px;
 
     display: block;
     align-items: center;
-    
+
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -914,12 +914,12 @@ margin: 0px 0px;
 }
 
 .puntitos{
-    position: absolute;        
+    position: absolute;
     left: 45.83%;
     right: 45.83%;
     top: 16.67%;
     bottom: 16.67%;
-    
+
     padding-left: 300px;
 }
 
@@ -993,7 +993,7 @@ margin: 0px 0px;
 
 }
 .grafica{
-    
+
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -1019,7 +1019,7 @@ margin: 0px 0px;
     display: flex;
     flex-direction: row;
     align-items: center;
-} 
+}
 
 .time{
     width: 708px;
@@ -1061,22 +1061,21 @@ margin: 0px 0px;
     height: 18px;
     left: 145.64px;
     top: 0px;
-    
+
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 18px;
-    
+
     text-align: center;
-    
+
     color: #667085;
     flex: none;
     flex-grow: 0;
     margin: 0px 24px;
 
 }
-
 
 .meses_grafica > ul li{
     display: flex;
@@ -1086,4 +1085,147 @@ margin: 0px 0px;
     margin-left: 3%;
     text-decoration: none;
     padding-right: 39px;
+}
+.cards{
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: static;
+width: 792px;
+height: 404px;
+left: 0px;
+top: 321px;
+
+background: #FFFFFF;
+
+border: 1px solid #EAECF0;
+box-sizing: border-box;
+
+box-shadow: 0px 1px 3px rgba(16, 24, 40, 0.1), 0px 1px 2px rgba(16, 24, 40, 0.06);
+border-radius: 8px;
+
+flex: none;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+}
+
+
+.balance_card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.You_cards{
+    width: 708px;
+    height: 28px;
+    left: 0px;
+    top: 0px;
+
+    margin-top: 24px;
+    margin-left: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.puntos_cartas{
+    margin-top: 26px;
+    padding-right: 33px;
+}
+
+.targetas{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 302px;
+    height: 182px;
+    left: 0px;
+    top: 0px;
+    margin-left: 24px;
+
+
+}
+
+.card_frente{
+    overflow: hidden;
+    position: static;
+    width: 302px;
+    height: 182px;
+    left: 0px;
+    top: 0px;
+
+    background: #F4D9D0;
+    box-shadow: 7.64557px 9.55696px 15.2911px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(11.4684px);
+
+    border-radius: 20px;
+
+    flex: none;
+
+    flex-grow: 0;
+    margin: 16px 0px;
+
+}
+.interior_vertical{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 19px;
+    padding-left: 19px;
+
+    position: absolute;
+    left: 0px;
+    right: 84.1px;
+    top: 0px;
+    bottom: 0px;
+
+    background: #344054;
+
+}
+.frente{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.Untitled{
+
+    width: 64px;
+    height: 19px;
+    left: 19.11px;
+    top: 19.11px;
+    margin-right: 185px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.2911px;
+    line-height: 19px;
+
+    color: white;
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11.4684px;
+    line-height: 16px;
+
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    /* Base/White */
+
+    color: #FFFFFF;
 }
