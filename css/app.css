@@ -710,6 +710,7 @@ margin: 0px 0px;
 
 .graf_morado{
 
+    
     background: #FFFFFF;
 
 
@@ -736,11 +737,13 @@ margin: 0px 0px;
     height: 120px;
     border-radius: 50%;
     background-image: conic-gradient(
-              #7F56D9 0 75deg, 
+              #7F56D9 0 75deg,
                 #9E77ED 75deg 200deg,
                 #B692F6 200deg 235deg,
-                #D6BBFB 235deg 280deg, 
+                #D6BBFB 235deg 280deg,
                 #F4EBFF 0);
+
+                margin-left: 25px;
 }
 
 .hole{
@@ -761,8 +764,8 @@ margin: 0px 0px;
 }
 
 .primary{
-
-    margin-top: -80px;
+    position: relative;
+    margin-top: -50px;
     padding-bottom: 24px;
     font-family: 'Inter';
     font-style: normal;
@@ -773,8 +776,78 @@ margin: 0px 0px;
     color: #101828;
 }
 
-.graf_gris{
+.puntitos{
+    position: absolute;        
+    left: 45.83%;
+    right: 45.83%;
+    top: 16.67%;
+    bottom: 16.67%;
+    
+    padding-left: 300px;
+}
 
+
+.curren{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #667085;
+}
+.con_money{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.money_morado{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+    padding-top: 24px;
+    color: #101828;
+
+}
+
+.porcentaje{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 8px 2px 10px;
+
+    background: #ECFDF3;
+    border-radius: 16px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 320px;
+    color: #027A48;
+}
+
+.barra_arriba{
+    left: 20.83%;
+    right: 20.83%;
+    top: 20.83%;
+    bottom: 20.83%;
+    padding-right: 6.5px;
+
+}
+
+.graf_gris{
     background: #FFFFFF;
 
 
@@ -784,10 +857,233 @@ margin: 0px 0px;
 
     box-shadow: 0px 1px 3px rgba(16, 24, 40, 0.1), 0px 1px 2px rgba(16, 24, 40, 0.06);
     border-radius: 8px;
-
+    margin-right: 24px;
 
     flex: none;
 
     flex-grow: 1;
+    padding-left: 24px;
 }
 
+.gris{
+
+    display: block;
+    align-items: center;
+    
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-image: conic-gradient(
+            #475467 0 75deg,
+                #667085 75deg 200deg,
+                #98A2B3 200deg 235deg,
+                #D0D5DD 235deg 280deg,
+                #F2F4F7 0);
+
+                margin-left: 25px;
+}
+
+.hole_gris{
+    margin-top: 30px;
+    margin-left: 30px;
+    display: block;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #FFFFFF;
+}
+
+.contenedor_gris{
+    margin-left: 24px;
+    margin-top: 0;
+    border-top: 0px;
+}
+
+.secundary{
+    position: relative;
+    margin-top: -50px;
+    padding-bottom: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #101828;
+}
+
+.puntitos{
+    position: absolute;        
+    left: 45.83%;
+    right: 45.83%;
+    top: 16.67%;
+    bottom: 16.67%;
+    
+    padding-left: 300px;
+}
+
+
+.curren{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #667085;
+}
+.con_money_gris{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.money_gris{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+    padding-top: 24px;
+    color: #101828;
+
+}
+
+.porcentaje_gris{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 8px 2px 10px;
+
+    background: #ECFDF3;
+    border-radius: 16px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 320px;
+    color: #027A48;
+}
+
+.barra_arriba_gris{
+    left: 20.83%;
+    right: 20.83%;
+    top: 20.83%;
+    bottom: 20.83%;
+    padding-right: 6.5px;
+
+}
+
+.contenedor_final{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 112px;
+    margin-top: 24px;
+
+}
+.grafica{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 780px;
+    height: 297px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+
+    border: 1px solid #EAECF0;
+    box-sizing: border-box;
+
+    box-shadow: 0px 1px 3px rgba(16, 24, 40, 0.1), 0px 1px 2px rgba(16, 24, 40, 0.06);
+    border-radius: 8px;
+
+
+}
+
+.balance{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} 
+
+.time{
+    width: 708px;
+    height: 28px;
+    left: 0px;
+    top: 0px;
+
+    margin-top: 24px;
+    margin-left: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.puntos_grafica{
+    margin-top: 26px;
+    padding-right: 33px;
+}
+
+.contenedor_grafica{
+    width: 720px;
+    height: 133px;
+    margin-left: 24px;
+    margin-top: 32px;
+    background:url(../img/grafica.png) ;
+}
+
+.meses_grafica > ul{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-left: 10px;
+    padding-top: 10px;
+    position: static;
+    width: 22px;
+    height: 18px;
+    left: 145.64px;
+    top: 0px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    
+    text-align: center;
+    
+    color: #667085;
+    flex: none;
+    flex-grow: 0;
+    margin: 0px 24px;
+
+}
+
+
+.meses_grafica > ul li{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    list-style-type: none;
+    margin-left: 3%;
+    text-decoration: none;
+    padding-right: 39px;
+}
